@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+}
+.login_texto{
+    margin: 3%;
+}
+.login_texto p{
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #868E96;
+    text-align: center;
+  }
+  .login_texto h1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #343A40;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+.login_form form{
+    display: flex;
+    flex-direction: column;
+}
+.login_form form input{
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    margin: 2%;
+    border-radius: 4px;
+}
+.login_form form button{
+    border-radius: 4px;
+    width: 50%;
+}
+.login_form form button {
+    margin: 2%;
+    padding: 2%;
+    background: #FF9300;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    width: 50%;
+    border: none;
+    border-radius: 4px;
+  }
+  .login_form form button:hover{
+    background: #1465c7;
+    transition: 1s;
+  }
+  .login_form form a:hover{
+    color: #343A40;
+    transition: 1s;
+  }
+  .login a{
+    text-decoration: underline;
+    color: #1465c7;
+  }
+  .login a:hover{
+    color: #FF9300;
+    transition: 1s;
+    text-decoration: underline;
+  }

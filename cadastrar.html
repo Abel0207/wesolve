@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/cad.css">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>CADASTRAR - LOONGOKA</title>
+</head>
+<body>
+    
+
+    <!-- Humberger Begin -->
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+        <div class="humberger__menu__logo">
+            <a href="#"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="humberger__menu__widget">
+            <div class="header__top__right__language">
+                <img src="img/lingua.png" alt="">
+                <div>Português</div>
+                <span class="arrow_carrot-down"></span>
+            </div>
+            <div class="header__top__right__auth">
+                <a href="index.html"><i class="fa fa-user"></i>SAIR</a>
+            </div>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+        <div class="header__top__right__social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+        </div>
+        <div class="humberger__menu__contact">
+            <ul>
+                <li><i class="fa fa-envelope"></i>wesolve@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Humberger End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__left">
+                            <ul>
+                                <li><i class="fa fa-envelope"></i>wesolve@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__right">
+                            <div class="header__top__right__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            </div>
+                            <div class="header__top__right__language">
+                                <img src="img/lingua.png" alt="">
+                                <div>Português</div>
+                            </div>
+                            <div class="header__top__right__auth">
+                                <a href="login.html"><i class="fa fa-user"></i>LOGIN</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="humberger__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+
+
+
+
+    <section class="cadastrar">
+        <div class="cadastrar_texto">
+            <p>Bem-vindo!</p>
+            <h2>Os seus dados são protegidos pela lei da proteção dos dados pessoais(Lei n.º22/11, de 17 de Junho).</h2>
+            <h1>Faça o seu cadastro</h1>
+        </div>
+        <div class="cadastrar_form">
+            <form method="post" action="cadastrar_action.php" >
+                <input type="text" name="pnome" placeholder="Nome*">
+                <input type="text" name="unome" placeholder="Apelido*">
+                <input type="email" name="email" placeholder="E-mail*">
+                <input type="text" name="telefone" placeholder="Número de telefone*">
+                <input type="BI/Cédula" name="bi" placeholder="BI*">
+                <input type="text" name="nasc" placeholder="Nome da Empresa*">
+                <select name="genero" placeholder="Gênero*">
+                    <option value="Masculino">Masculino*</option>
+                    <option value="Femenino">Femenino*</option>
+                </select>
+                <input type="password" name="senha" placeholder="Senha*">
+                <input type="password" name="confsenha" placeholder="Confirmar senha*">
+                <button type="submit">Cadastrar</button>
+            </form>
+            <a href="login.html">Já possui uma conta? Fazer Login!</a>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.adm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    height: 100vh;
+}
+
+.menu_adm h4{
+    text-align: center;
+}
+.menu_adm{
+    background-color: rgb(57, 57, 57);
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100vh;
+}
+.menu_adm .item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5%;
+}
+.menu_adm .item li{
+    list-style: none;
+    width: 100%;
+}
+.menu_adm .item li a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 2%;
+    padding: 2%;
+    background-color: rgb(87, 87, 87);
+}
+.menu_adm li a{
+    color: white;
+}
+.painel{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.painel p{
+    color: black;
+}
+.painel .usuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.painel .usuario .tabela .acoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2%;
+}
+.painel .usuario .tabela .acoes a{
+    color: #ff9300;
+}
+.painel .usuario .tabela .acoes a:hover{
+    color: #a06717;
+    transition: .5s;
+}
+
+.painel .usuario .usuarios_texto_t li{
+    list-style: none;
+    color: black;
+}
+.painel .usuario .usuarios_texto_t li a{
+    color: black;
+}
